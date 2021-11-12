@@ -5,7 +5,7 @@ Small wrapper around sklearn's `train_test_split` to allow splitting by higher-o
 ## Install
 
 ````
-> pip install multi-level-split
+> pip install git+https://github.com/lmkoch/multi-level-split
 ````
 
 ## Example usage
