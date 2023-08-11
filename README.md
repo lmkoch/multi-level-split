@@ -8,6 +8,14 @@ Small wrapper around sklearn's `train_test_split` to allow splitting by higher-o
 > pip install git+https://github.com/lmkoch/multi-level-split
 ````
 
+## Use source
+
+In case you want to work with the source code, you should install the dependencies `pandas` and `sklearn`, e.g. with pipenv and the Pipfile provided
+
+````
+project_root> pipenv install
+````
+
 ## Example usage
 
 The function `train_test_split` splits a  pandas dataframe into train and test splits. It returns a train and test pandas dataframe.
